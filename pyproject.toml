@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django-debug-request"
+version = "1.0.0"
+authors = [
+  { name="Raphael Michel", email="mail@raphaelmichel.de" },
+]
+description = "Execute cURL-like commands with logging within your Django production environment."
+readme = "README.rst"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/raphaelm/django-debug-request"
+Issues = "https://github.com/raphaelm/django-debug-request/issues"
