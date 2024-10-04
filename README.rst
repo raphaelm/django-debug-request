@@ -6,7 +6,7 @@ django-debug-request
 
 It's cURL in your Django! This is a very small and light-weight alternative to something like
 django-debug-toolbar that is useful to use in production when you need to figure out what is going
-wrong. It consists of one management command that supports limited subsect of the cURL command's
+wrong. It consists of one management command that supports limited subset of the cURL command's
 arguments, but executes the request inside the Django stack using ``django.test.client.Client`` –
 with extended debug output.
 
@@ -17,7 +17,7 @@ Installation
 
 First, install the package::
 
-    pip install django-debug request
+    pip install django-debug-request
 
 Then, add it to your installed apps::
 
